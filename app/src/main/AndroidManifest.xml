@@ -14,6 +14,12 @@
         android:theme="@style/Theme.RxJavaTest"
         tools:targetApi="31">
         <activity
+            android:name=".function.FlatMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".create.IntervalActivity"
+            android:exported="false" />
+        <activity
             android:name=".RxMapActivity"
             android:exported="false" />
         <activity
